@@ -159,7 +159,7 @@ WHERE id = 2;  -- example record to remove
 
 <img src="screenshots/after-delete-calculations.png" width="60%">
 
-## Challanges
+## Challenges
 
 Faced one error while starting postgres docker container because of mounting path issue in updated postgres version. Fixed it by changing the path as recommended in error message.
 
