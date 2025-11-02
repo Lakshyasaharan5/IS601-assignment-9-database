@@ -1,6 +1,10 @@
 # IS601-assignment-9-database
 Containerized database services
 
+## Docker services running output
+
+<img src="screenshots/docker-running.png" width="60%">
+
 ## Successfully started pgadmin server on local
 
 The pgAdmin container is running successfully and accessible at `http://localhost:5050`
@@ -154,4 +158,8 @@ WHERE id = 2;  -- example record to remove
 <img src="screenshots/delete-calculations.png" width="60%">
 
 <img src="screenshots/after-delete-calculations.png" width="60%">
+
+## Challanges
+
+Faced one error while starting postgres docker container because of mounting path issue in updated postgres version. Fixed it by changing the path as recommended in error message.
 
